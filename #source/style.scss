@@ -1,0 +1,41 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
+
+@font-face {
+	font-family: 'Akzidenz-grotesk-black';
+	src: url('../fonts/Akzidenz-grotesk-black.eot');
+	src: local('☺'), url('../fonts/Akzidenz-grotesk-black.woff') format('woff'), url('fonts/Akzidenz-grotesk-black.ttf') format('truetype'), url('fonts/Akzidenz-grotesk-black.svg') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Akzidenz-grotesk-bold';
+	src: url('../fonts/Akzidenz-grotesk-bold.eot');
+	src: local('☺'), url('../fonts/Akzidenz-grotesk-bold.woff') format('woff'), url('fonts/Akzidenz-grotesk-bold.ttf') format('truetype'), url('fonts/Akzidenz-grotesk-bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Akzidenz-grotesk-light';
+	src: url('../fonts/Akzidenz-grotesk-light.eot');
+	src: local('☺'), url('../fonts/Akzidenz-grotesk-light.woff') format('woff'), url('fonts/Akzidenz-grotesk-light.ttf') format('truetype'), url('fonts/Akzidenz-grotesk-light.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Akzidenz-grotesk-roman';
+	src: url('../fonts/Akzidenz-grotesk-roman.eot');
+	src: local('☺'), url('../fonts/Akzidenz-grotesk-roman.woff') format('woff'), url('fonts/Akzidenz-grotesk-roman.ttf') format('truetype'), url('fonts/Akzidenz-grotesk-roman.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@import 'nullstyle.scss';
+//defoult font
+$fontfamily: 'Akzidenz-grotesk-black';
+
+p {
+    font-family: $fontfamily;
+    font-size: 50px;
+}
