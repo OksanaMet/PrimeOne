@@ -104,7 +104,126 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
-p {
-  font-family: "Akzidenz-grotesk-black";
-  font-size: 50px;
+header {
+  padding: 29px 0px 33px 0px;
+  color: #fff;
+}
+
+.conteiner {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-lang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-top-lang__item {
+  font-family: "Bebas";
+  font-size: 14px;
+  line-height: 19px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0px 4px;
+  margin-right: 10px;
+}
+.header-top-lang__item.active {
+  background-color: #000;
+  color: white;
+  text-align: center;
+}
+
+.header-top__link {
+  font-family: "Akzidenz-grotesk-bold";
+  font-size: 15px;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.header-bottom {
+  margin-top: -10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-bottom__column {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.333%;
+          flex: 0 0 33.333%;
+}
+
+.header-bottom-menu--right .header-bottom-list {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-align: right;
+}
+.header-bottom-menu--right .header-bottom-list li {
+  margin-left: 45px;
+}
+.header-bottom-menu--right .header-bottom-list li:first-child {
+  margin: 0;
+}
+
+.header-bottom-menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header-bottom-menu-list li {
+  margin: 0px 45px 0px 0px;
+}
+.header-bottom-menu-list li:last-child {
+  margin: 0;
+}
+
+.header-bottom-menu__link {
+  font-family: "Akzidenz-grotesk-bold";
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.header-logo {
+  display: block;
+  text-align: center;
+}
+
+.header-logo__text {
+  display: block;
+  font-family: "Bebas";
+  font-size: 8px;
+  letter-spacing: 8px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.header-logo__image {
+  display: inline-block;
+  margin: 13px 0px 22px 0px;
 }
